@@ -4,6 +4,14 @@ body{
 }
 header{
   background-color: #5b7989;
-  text-align: left;
   color: white;
+  text-align: left;
+  text-shadow: 2px #02010a;
+  border-radius: 10px;
+  padding: 1px;
+}
+#menu-principal a{
+  color: white;
+  text-decoration: underline;  
+  align: right;
 }
