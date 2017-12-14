@@ -2,34 +2,3 @@ body{
   font-family: 'Dancing Script';
   background-color: #02010a;
 }
-#main-header{
-  background-color: #5b7989;
-  color: white;
-  text-shadow: 2px #02010a;
-  border-radius: 10px;
-  padding: 1px;
-  height: 80px;
-}
-#main-header a{
-  color: white;
-}
-nav{
-  float: right;
-}
-nav ul{
-  list-style: none;
-  padding-right: 20px;
-}
-nav ul li{
-  display: inline-block;
-  line-height: 80px;
-}
-nav ul li a{
-  display: block;
-  padding: 0 10px;
-}
-.site-name {
-		display: block;
-		font-weight: 700;
-		font-size: 1.2em;
-	}
