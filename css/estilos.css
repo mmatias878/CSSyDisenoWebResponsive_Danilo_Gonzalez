@@ -2,3 +2,9 @@ body{
   font-family: 'Dancing Script';
   background-color: #02010a;
 }
+#main-header{
+  background-color: #5b7989;
+  color: white;
+  text-shadow: 20px #02010a;
+  border-radius: 10px;
+}
