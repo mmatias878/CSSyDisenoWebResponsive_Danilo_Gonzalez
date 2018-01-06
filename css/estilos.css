@@ -8,3 +8,40 @@ body{
   text-shadow: 20px #02010a;
   border-radius: 10px;
 }
+h1{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#main-header a{
+  color: white;
+}
+nav {
+  float: right;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: -60px;
+  padding-right: 10px;
+}
+nav ul li{
+  display: inline-block;
+  font-size: 20px;
+}
+@media (max-width: 900px) {
+  #main-header{
+    height: 90px;
+  }
+  h1{
+    text-align: center;
+  }
+  nav{
+    float: none;
+    text-align: center;
+  }
+  nav ul{
+    margin-top: -20px;
+  }
+}
