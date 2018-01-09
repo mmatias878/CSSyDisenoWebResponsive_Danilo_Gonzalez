@@ -58,9 +58,8 @@ nav ul li{
 }
 .imagen-secundaria div{
   box-sizing: border-box;
-  border-style: none;
-  border-width: 1px;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: auto;
 }
 .imagen-sec-paisaje1 img{
@@ -118,14 +117,14 @@ nav ul li{
     width: 100%;
   }
   .imagen-sec-paisaje1 img{
-    width: 100%;
+    width: 90%;
     margin: auto;
   }
   .imagen-sec-retrato1{
     width: 100%;
   }
   .imagen-sec-retrato1 img{
-    width: 100%;
+    width: 90%;
     margin: auto;
   }
 }
@@ -154,14 +153,14 @@ nav ul li{
     width: 100%;
   }
   .imagen-sec-paisaje1 img{
-    width: 85%;
+    width: 80%;
     margin: auto;
   }
   .imagen-sec-retrato1{
     width: 100%;
   }
   .imagen-sec-retrato1 img{
-    width: 85%;
+    width: 80%;
     margin: auto;
   }
 }
