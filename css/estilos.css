@@ -39,6 +39,7 @@ nav ul li{
 .imagen-central{
   background-color: #82c3a6;
   width: 100%;
+  height: 530px;
 }
 .imagen-central img {
   display: block;
@@ -49,6 +50,48 @@ nav ul li{
 }
 .imagen-secundaria{
     background-color: #d5c75f;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  	display: flex;
+  	flex-flow: row wrap;
+}
+.imagen-secundaria div{
+  box-sizing: border-box;
+  border-style: none;
+  border-width: 1px;
+  padding: 20px;
+  margin: auto;
+}
+.imagen-sec-paisaje1 img{
+  width: 100%;
+  display: block;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -webkit-box-shadow: 2px 2px #82c3a6;
+  -moz-box-shadow: 2px 2px #82c3a6;
+  -ms-box-shadow: 2px 2px #82c3a6;
+}
+.imagen-sec-retrato1 img{
+  width: 100%;
+  display: block;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -webkit-box-shadow: 2px 2px #82c3a6;
+  -moz-box-shadow: 2px 2px #82c3a6;
+  -ms-box-shadow: 2px 2px #82c3a6;
+}
+.imagen-sec-paisaje1 img:hover{
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+}
+.imagen-sec-retrato1 img:hover{
+  -webkit-transform: translate(20px,-5px);
+  -moz-transform: translate(20px,-5px);
+  -ms-transform: translate(20px,-5px);
 }
 @media (max-width: 378px) {
   .main-header{
@@ -64,8 +107,26 @@ nav ul li{
   nav ul{
     margin-top: -20px;
   }
+  .imagen-central{
+    width: 100%;
+    height: 0%;
+  }
   .imagen-central img {
     width: 90%;
+  }
+  .imagen-sec-paisaje1{
+    width: 100%;
+  }
+  .imagen-sec-paisaje1 img{
+    width: 100%;
+    margin: auto;
+  }
+  .imagen-sec-retrato1{
+    width: 100%;
+  }
+  .imagen-sec-retrato1 img{
+    width: 100%;
+    margin: auto;
   }
 }
 @media (min-width: 378px) and (max-width:900px) {
@@ -82,7 +143,25 @@ nav ul li{
   nav ul{
     margin-top: -20px;
   }
+  .imagen-central{
+    width: 100%;
+    height: 0%;
+  }
   .imagen-central img {
-    width: 70%;
+    width: 80%;
+  }
+  .imagen-sec-paisaje1{
+    width: 100%;
+  }
+  .imagen-sec-paisaje1 img{
+    width: 85%;
+    margin: auto;
+  }
+  .imagen-sec-retrato1{
+    width: 100%;
+  }
+  .imagen-sec-retrato1 img{
+    width: 85%;
+    margin: auto;
   }
 }
