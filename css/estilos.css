@@ -62,6 +62,10 @@ nav ul li{
   padding-bottom: 20px;
   margin: auto;
 }
+.imagen-secundaria h2{
+  text-align: center;
+  text-decoration: underline;
+}
 .imagen-sec-paisaje1 img{
   width: 100%;
   display: block;
@@ -91,6 +95,25 @@ nav ul li{
   -webkit-transform: translate(20px,-5px);
   -moz-transform: translate(20px,-5px);
   -ms-transform: translate(20px,-5px);
+}
+.footer{
+  background-color: #C6d5c5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.footer p{
+  font-weight: bold;
+}
+.footer div{
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 @media (max-width: 378px) {
   .main-header{
@@ -127,6 +150,10 @@ nav ul li{
     width: 90%;
     margin: auto;
   }
+  .footer{
+    display: block;
+    text-align: center;
+  }
 }
 @media (min-width: 378px) and (max-width:900px) {
   .main-header{
@@ -162,5 +189,9 @@ nav ul li{
   .imagen-sec-retrato1 img{
     width: 80%;
     margin: auto;
+  }
+  .footer{
+    display: block;
+    text-align: center;
   }
 }
