@@ -6,6 +6,14 @@ body{
   margin: 0;
   padding: 0;
   width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.content div{
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
 }
 .main-header{
   background-color: #5b7989;
@@ -13,10 +21,10 @@ body{
   text-shadow: 20px #02010a;
   border-radius: 10px 10px 0px 0px;
   height: 60px;
+  width: 100%
 }
 h1{
   padding-left: 10px;
-  padding-top: 10px;
   padding-bottom: 10px;
 }
 .main-header a{
@@ -29,7 +37,6 @@ nav ul{
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-top: -60px;
   padding-right: 10px;
 }
 nav ul li{
@@ -45,8 +52,6 @@ nav ul li{
   display: block;
   margin: auto;
   width: 700px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 .imagen-secundaria{
     background-color: #d5c75f;
@@ -114,6 +119,62 @@ nav ul li{
   padding-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
+}
+.galeria{
+    background-color: #d5c75f;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  	display: flex;
+  	flex-flow: row wrap;
+}
+.galeria div{
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+.roatan1{
+  width: 33.3333%;
+  display: block;
+}
+.roatan1 img{
+  width: 80%;
+}
+.roatan2 {
+  width: 33.3333%;
+  display: block;
+}
+.roatan2 img{
+  width: 80%;
+}
+.roatan3 {
+  width: 33.3333%;
+  display: block;
+}
+.roatan3 img{
+  width: 80%;
+}
+.roatan4{
+  width: 33%;
+  display: block;
+}
+.roatan4 img{
+  width: 80%;
+}
+.roatan5 {
+  width: 33%;
+  display: block;
+}
+.roatan5 img{
+  width: 80%;
+}
+.roatan6 {
+  width: 33%;
+  display: block;
+}
+.roatan6 img{
+  width: 80%;
 }
 @media (max-width: 378px) {
   .main-header{
