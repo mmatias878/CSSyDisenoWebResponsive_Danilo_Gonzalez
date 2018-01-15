@@ -114,8 +114,6 @@ nav ul li{
 }
 .footer div{
   box-sizing: border-box;
-  padding-top: 20px;
-  padding-bottom: 20px;
   margin: auto;
   margin-top: 0px;
 }
@@ -129,51 +127,48 @@ nav ul li{
 }
 .galeria div{
   box-sizing: border-box;
-  padding-top: 20px;
-  padding-bottom: 20px;
   margin: auto;
+  width: 33.33333%;
+  padding: 20px;
 }
-.roatan1{
-  width: 33.3333%;
+.galeria img{
+  height: 300px;
+  width: 100%;
   display: block;
 }
 .roatan1 img{
-  width: 80%;
-}
-.roatan2 {
-  width: 33.3333%;
-  display: block;
+  filter: blur(10px);
 }
 .roatan2 img{
-  width: 80%;
-}
-.roatan3 {
-  width: 33.3333%;
-  display: block;
+  filter: grayscale(100%);
 }
 .roatan3 img{
-  width: 80%;
-}
-.roatan4{
-  width: 33%;
-  display: block;
+  filter: sepia(90%);
 }
 .roatan4 img{
-  width: 80%;
-}
-.roatan5 {
-  width: 33%;
-  display: block;
+  filter: grayscale(100%);
 }
 .roatan5 img{
-  width: 80%;
-}
-.roatan6 {
-  width: 33%;
-  display: block;
 }
 .roatan6 img{
-  width: 80%;
+  filter: grayscale(100%);
+}
+.retrato1 img{
+  filter: blur(10px);
+}
+.retrato2 img{
+  filter: grayscale(100%);
+}
+.retrato3 img{
+  filter: sepia(90%);
+}
+.retrato4 img{
+  filter: grayscale(100%);
+}
+.retrato5 img{
+}
+.retrato6 img{
+  filter: grayscale(100%);
 }
 @media (max-width: 378px) {
   .main-header{
@@ -213,6 +208,15 @@ nav ul li{
   .footer{
     display: block;
     text-align: center;
+  }
+  .galeria{
+    	display: block;
+  }
+  .galeria div{
+    width: 100%;
+  }
+  .galeria img{
+    height: auto;
   }
 }
 @media (min-width: 378px) and (max-width:900px) {
@@ -254,4 +258,16 @@ nav ul li{
     display: block;
     text-align: center;
   }
+  .galeria{
+    	display: block;
+  }
+  .galeria div{
+    width: 100%;
+  }
+  .galeria img{
+    height: auto;
+  }
+}
+@@media query {
+
 }
