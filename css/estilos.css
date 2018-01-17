@@ -7,7 +7,11 @@ body{
   padding: 0;
   width: 100%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row wrap;  
+  animation-name: slidein;
+  animation-duration: 0.5s;
+  -webkit-animation-name: slidein;
+  -webkit-animation-duration: 0.5s;
 }
 .content div{
   box-sizing: border-box;
@@ -268,6 +272,13 @@ nav ul li{
     height: auto;
   }
 }
-@@media query {
-
+@keyframes slidein {
+    0%   {margin-top: 150px;}
+    60%  {margin-top: -5px;}    
+    100% {margin-top: 0px;}
+}
+@-webkit-keyframes slidein {
+    0%   {margin-top: 150px;}
+    60%  {margin-top: -5px;}    
+    100% {margin-top: 0px;}
 }
